@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+nav {
+    background-image: url('head-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid grey;
+}
+
+nav section:first-child {
+    background-color: rgba(0, 0, 0, 0.555);
+    width: auto;
+    height: 150px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav section:first-child h1 {
+    width: 200px;
+    height: 120px;
+    margin: -10px 0 0 0px;
+}
+
+#langBtn, #signBtn {    
+    background-color: rgba(0, 0, 0, 0.515);
+    color: aliceblue;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    padding: 0 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#signBtn {
+    background-color: rgb(205, 0, 0);
+    border: none;
+}
+
+nav section:first-child button ion-icon {
+    position: relative;    
+    top: 2px;
+}
+
+nav section:last-child {
+    background-color: rgba(0, 0, 0, 0.555);
+    width: auto;
+    height: 550px;
+}
+
+nav section:last-child h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 140px;
+}
+
+nav section:last-child p {
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+
+}
+.input {
+    width: 560px;
+    margin: auto;
+    display: flex;
+}
+
+#userInput {
+    background-color: rgba(0, 0, 0, 0.485);
+    color: rgb(185, 193, 200);
+    padding-left: 20px;
+    width: 330px;
+    height: 45px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#userInput::placeholder {
+    color: rgb(185, 193, 200);
+}
+
+.navbtn {    
+    background-color: rgb(205, 0, 0);
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+
+}
+.navbtn:hover{
+    background-color: rgb(181, 0, 0);
+}
+
+/* Main Body */ 
+.bodySection {
+    color: aliceblue;
+    width: auto;
+    height: 550px;
+    text-align: center;
+    border-bottom: 7px solid gray;
+    display: flex;
+}
+
+.bodySection div {
+    width: 1200px;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodySection section {    
+    margin: 0 10px;
+}
+
+.bodySection h1 {
+    font-size: 45px;
+    padding: 20px 0;
+}
+
+.bodySection p {
+    font-size: 25px;
+}
+
+.bodySection div section img {
+    z-index: 1;
+}
+
+.bodySection .sec1 {
+    min-width: 610px;
+    text-align: left;
+}
+
+#image-tv {
+    position: relative;
+    top: 100px;
+}
+
+#video-tv {
+    width: 365px;
+    position: relative;
+    top: -200px;
+    left: 0px;
+    z-index: -1;
+}
+
+#mobile-download {
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: -130px; 
+}
+
+#mobile-download span {
+    padding: 5px;
+}
+
+#ad {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#image-mobile {
+    width: 550px;
+}
+
+#image-device {
+    position: relative;
+    top: 100px;
+}
+
+#video-device {
+    width: 330px;
+    position: relative;
+    top: -230px;
+    left: -2px;
+}
+
+.moreSection {
+    background-color: black;
+    height: auto;
+    border-bottom: 7px solid gray;
+}
+
+.moreSection h1 {
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.qna {
+    background-color: rgba(180, 170, 170, 0.326);
+    color: aliceblue;
+    width: 60%;
+    height: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 10px auto;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.moreSection .qna:hover, .ans:hover{
+    background-color: rgba(250, 243, 243, 0.326);
+}
+
+.moreSection div ion-icon {
+    font-size: 40px;
+}
+
+.ans {
+    background-color: rgba(180, 170, 170, 0.326);
+    width: 59%;
+    margin: auto;
+    padding: 20px;
+    z-index: -1;
+}
+
+.moreSection p {
+    color: aliceblue;
+    font-size: 23px;
+    text-align: left;
+    margin: 25px auto 20px auto;
+}
+
+.moreSection h2 {
+    color: aliceblue;
+    text-align: center;
+    margin: 50px 0 20px 0 ;
+}
+
+.moreSection div:last-child {
+    margin-bottom: 80px;
+}
+
+/* More Section Toggle Section  */
+#qnaPlus0, #qnaPlus1, #qnaPlus2, #qnaPlus3, #qnaPlus4, #qnaPlus5 {
+    transition: all 0.2s;
+}
+
+#qnaPlus0.active, #qnaPlus1.active, #qnaPlus2.active, #qnaPlus3.active, #qnaPlus4.active, #qnaPlus5.active {
+    rotate: 45deg;
+}
+
+#qnaPlus0:not(.active), #qnaPlus1:not(.active), #qnaPlus2:not(.active), #qnaPlus3:not(.active), #qnaPlus4:not(.active), #qnaPlus5:not(.active) {
+    rotate: 0;
+}
+
+#ans0, #ans1, #ans2, #ans3, #ans4, #ans5 {
+    transition: all 0.5s;
+}
+
+#ans0.active, #ans1.active, #ans2.active, #ans3.active, #ans4.active, #ans5.active {
+    height: auto;
+    color: black;
+    margin-top: 0;
+}
+#ans0:not(.active), #ans1:not(.active), #ans2:not(.active), #ans3:not(.active), #ans4:not(.active), #ans5:not(.active){
+    background-color: transparent;
+    width: 0;
+    height: 0px;
+    margin-top: -50px;   
+}
+
+#ans0:not(.active) p, #ans1:not(.active) p, #ans2:not(.active) p, #ans3:not(.active) p, #ans4:not(.active) p, #ans5:not(.active) p {
+    display: none;
+}
+
+/* footer Section*/
+footer {
+    background-color: none;
+    color: rgb(205, 206, 208);
+    width: auto;
+    height: 450px;
+}
+
+footer span {
+    font-size: 20px;
+    position: relative;
+    left: 285px;
+    top: 80px;
+}
+
+footer div {
+    width: 750px;
+    line-height: 40px;
+    margin: 100px 0 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer div ul {
+    width: 150px;
+    list-style: none;
+    margin: 1px;
+    text-decoration: underline;
+}
+
+footer div:last-child {
+    display: block;
+    margin: 0 0 0 15%;
+}
+
+footer div:last-child p {
+    margin-left: 10px;
+}
